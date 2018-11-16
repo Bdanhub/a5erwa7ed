@@ -392,7 +392,7 @@ if (message.content.startsWith(prefix + "upt.ime")) {
 });
 
 client.on('ready', () => {
-  client.user.setGame(`5!help  5!play •♥','https://www.twitch.tv/peery13');
+  client.user.setGame('5!help  5!play •♥','https://www.twitch.tv/peery13');
   console.log('---------------');
   console.log(' Bot Is Online')
   console.log('---------------')
